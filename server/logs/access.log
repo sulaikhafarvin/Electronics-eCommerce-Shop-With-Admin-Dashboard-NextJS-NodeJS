@@ -1150,3 +1150,30 @@
 ::1 - - [05/Oct/2025:14:47:31 +0000] "GET /api/users/email/bangkong@gmail.com HTTP/1.1" 200 74 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" reqId=t5m-8LQT userId=anonymous
 ::1 - - [05/Oct/2025:14:47:31 +0000] "OPTIONS /api/wishlist/pHsOpnfmEGqOkmUPHG0i3 HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" reqId=yS53faKo userId=anonymous
 ::1 - - [05/Oct/2025:14:47:31 +0000] "GET /api/wishlist/pHsOpnfmEGqOkmUPHG0i3 HTTP/1.1" 200 2 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" reqId=Zdwofv0o userId=anonymous
+::1 - - [17/Nov/2025:07:12:43 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=QjwINhlS userId=anonymous
+::1 - - [17/Nov/2025:07:12:56 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$gt]=1&filters[category][$equals]=smart-phones&sort=undefined&page=1 HTTP/1.1" 200 2 "-" "node" reqId=8Muchq05 userId=anonymous
+::1 - - [17/Nov/2025:07:12:56 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$gt]=1&filters[category][$equals]=smart-phones&sort=undefined&page=1 HTTP/1.1" 200 2 "-" "node" reqId=U510rN6A userId=anonymous
+::1 - - [17/Nov/2025:07:12:56 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$gt]=1&filters[category][$equals]=smart-phones&sort=undefined&page=1 HTTP/1.1" 200 2 "-" "node" reqId=rH8RC218 userId=anonymous
+::1 - - [17/Nov/2025:07:12:57 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$lte]=1&filters[category][$equals]=smart-phones&sort=defaultSort&page=1 HTTP/1.1" 200 299 "-" "node" reqId=WH37pOeX userId=anonymous
+::1 - - [17/Nov/2025:07:12:57 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$lte]=1&filters[category][$equals]=smart-phones&sort=defaultSort&page=1 HTTP/1.1" 200 299 "-" "node" reqId=_s42tXXZ userId=anonymous
+::1 - - [17/Nov/2025:07:13:04 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$lte]=1&filters[category][$equals]=smart-phones&sort=defaultSort&page=1 HTTP/1.1" 200 299 "-" "node" reqId=xxFvqFCX userId=anonymous
+::1 - - [17/Nov/2025:07:13:04 +0000] "GET /api/products?filters[price][$lte]=3000&filters[rating][$gte]=0&filters[inStock][$lte]=1&filters[category][$equals]=smart-phones&sort=defaultSort&page=1 HTTP/1.1" 200 299 "-" "node" reqId=pddpAeVY userId=anonymous
+::1 - - [17/Nov/2025:07:13:06 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=7uJ6pZ2O userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/slugs/party-speakers-demo HTTP/1.1" 200 343 "-" "node" reqId=lXShhpj_ userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/slugs/party-speakers-demo HTTP/1.1" 200 343 "-" "node" reqId=IpY7PLWp userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/slugs/party-speakers-demo HTTP/1.1" 200 343 "-" "node" reqId=HfGiHKBH userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/images/undefined HTTP/1.1" 200 2 "-" "node" reqId=qnD6xrhD userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/images/undefined HTTP/1.1" 200 2 "-" "node" reqId=_BpUCQ0R userId=anonymous
+::1 - - [17/Nov/2025:07:14:10 +0000] "GET /api/images/undefined HTTP/1.1" 200 2 "-" "node" reqId=QJf7-uzy userId=anonymous
+::1 - - [17/Nov/2025:07:16:17 +0000] "OPTIONS /api/orders HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" reqId=sgz6bbu- userId=anonymous
+::1 - - [17/Nov/2025:07:16:17 +0000] "POST /api/orders HTTP/1.1" 201 137 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" reqId=ZHMfrKzv userId=anonymous
+::1 - - [17/Nov/2025:07:16:17 +0000] "OPTIONS /api/order-product HTTP/1.1" 204 0 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" reqId=4eaSo3C_ userId=anonymous
+::1 - - [17/Nov/2025:07:16:17 +0000] "POST /api/order-product HTTP/1.1" 201 131 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" reqId=3gUdOxS2 userId=anonymous
+::1 - - [17/Nov/2025:07:16:19 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=OdHrXGzq userId=anonymous
+::1 - - [17/Nov/2025:07:20:18 +0000] "GET /api/slugs/wireless-earbuds-demo HTTP/1.1" 200 342 "-" "node" reqId=Vs0n_hpT userId=anonymous
+::1 - - [17/Nov/2025:07:20:18 +0000] "GET /api/images/undefined HTTP/1.1" 200 2 "-" "node" reqId=8ldXoieH userId=anonymous
+::1 - - [17/Nov/2025:07:20:58 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=WMpLlYFM userId=anonymous
+::1 - - [17/Nov/2025:07:20:58 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=zEAdWlM6 userId=anonymous
+::1 - - [17/Nov/2025:07:21:02 +0000] "GET /api/products HTTP/1.1" 200 3571 "-" "node" reqId=FcyDqcrm userId=anonymous
+::1 - - [17/Nov/2025:07:21:14 +0000] "GET /api/slugs/party-speakers-demo HTTP/1.1" 200 343 "-" "node" reqId=CHUZL0ZU userId=anonymous
+::1 - - [17/Nov/2025:07:21:14 +0000] "GET /api/images/undefined HTTP/1.1" 200 2 "-" "node" reqId=d8iwiczE userId=anonymous
